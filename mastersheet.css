@@ -1,0 +1,139 @@
+﻿body {
+    background-color: #f7f4de;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:"left";
+}
+
+.button {
+    border: none;
+    color: #f7f4de;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #000000;
+    transition-duration: 0.4s;
+    border: groove 4px #f7f4de;
+}
+
+    .button:hover {
+        background-color: #f7f4de;
+        color: black;
+        border: groove 4px black;
+    }
+
+.headbanner {
+    height: 200px;
+    width: 95%;
+    background-color: #b1a170;
+    margin: auto;
+    margin-bottom: 75px;
+    color: black;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    border: groove 4px black;
+}
+
+.headbannerALT {
+    height: 200px;
+    width: 95%;
+    background-color: #b1a170;
+    margin: auto;
+    margin-bottom: 10px;
+    color: black;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    border: groove 4px black;
+}
+
+.headbanner2 {
+    height: 130px;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: #000000;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.textbanner {
+    height: auto;
+    width: auto;
+    padding: 5px 7px;
+    background-color: #f7f4de;
+    margin-bottom: 15px;
+    border: dashed 4px black;
+}
+
+.indexcontent {
+    height: auto;
+    width: 600px;
+    background-color: #b1a170;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: groove 4px black;
+}
+
+.adminlogincontent {
+    height: 400px;
+    width: 600px;
+    background-color: #b1a170;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: groove 4px black;
+}
+
+.bookrequestcontent {
+    height: 600px;
+    width: 100px;
+    background-color: #b1a170;
+    padding: 10px;
+    margin-right: 200px;
+    float: left;
+    border: groove 4px black;
+}
+
+#mytable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 800px;
+    height: auto;
+    margin-left: 200px;
+    margin-right: 320px;
+    float: left;
+}
+
+    #mytable td, #mytable th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #mytable tr {
+        background-color: #f2f2f2;
+    }
+
+        #mytable tr:hover {
+            background-color: #ddd;
+        }
+
+    #mytable th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #b1a170;
+        color: white;
+    }
